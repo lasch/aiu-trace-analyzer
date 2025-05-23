@@ -1,0 +1,36 @@
+[
+  {
+    "args": {
+      "name": "AIU 0"
+    },
+    "name": "process_name",
+    "ph": "M",
+    "pid": 0
+  },
+  {
+    "args": {
+      "sort_index": 5000000
+    },
+    "name": "process_sort_index",
+    "ph": "M",
+    "pid": 0
+  },
+  {
+    "args": {
+      "name": "Stream 1"
+    },
+    "name": "thread_name",
+    "ph": "M",
+    "pid": 0,
+    "tid": 1
+  },
+  {
+    "args": {
+      "sort_index": 1
+    },
+    "name": "thread_sort_index",
+    "ph": "M",
+    "pid": 0,
+    "tid": 1
+  }
+]

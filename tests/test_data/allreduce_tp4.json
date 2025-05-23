@@ -1,0 +1,956 @@
+[
+    {
+        "attr": {
+            "Power": "3620872431",
+            "TS1": "2552537956",
+            "TS2": "2552537956",
+            "TS3": "2553144502",
+            "TS4": "2553427105",
+            "TS5": "2553427111"
+        },
+        "name": "add_11 Cmpt Prep",
+        "ph": "B",
+        "pid": 0,
+        "tid": 15514734831341844875,
+        "ts": 2097962447511.067
+    },
+    {
+        "attr": {
+            "Power": "3620872431",
+            "TS1": "2552537956",
+            "TS2": "2552537956",
+            "TS3": "2553144502",
+            "TS4": "2553427105",
+            "TS5": "2553427111"
+        },
+        "name": "add_11 Cmpt Prep",
+        "ph": "E",
+        "pid": 0,
+        "tid": 15514734831341844875,
+        "ts": 2097962448599.869
+    },
+    {
+        "attr": {
+            "Power": "3620872431",
+            "TS1": "2552537956",
+            "TS2": "2552537956",
+            "TS3": "2553144502",
+            "TS4": "2553427105",
+            "TS5": "2553427111"
+        },
+        "name": "add_11 Cmpt Exec",
+        "ph": "B",
+        "pid": 0,
+        "tid": 2009867741857745393,
+        "ts": 2097962448599.869
+    },
+    {
+        "attr": {
+            "Power": "3620872431",
+            "TS1": "2552537956",
+            "TS2": "2552537956",
+            "TS3": "2553144502",
+            "TS4": "2553427105",
+            "TS5": "2553427111"
+        },
+        "name": "add_11 Cmpt Exec",
+        "ph": "E",
+        "pid": 0,
+        "tid": 2009867741857745393,
+        "ts": 2097962449107.165
+    },
+    {
+        "attr": {
+            "Bytes": "524288",
+            "CollGroup": "AllReduce_all_reduce_4",
+            "Peer": "1",
+            "Power": "3445929116",
+            "TS1": "2552537957",
+            "TS2": "2552537957",
+            "TS3": "2553143669",
+            "TS4": "2553143669",
+            "TS5": "2553438341",
+            "Type": "SingleCast"
+        },
+        "name": "SenRdmaSend_82227 [sync=AllReduce_all_reduce_4_s0_r1_0] DmaO",
+        "ph": "B",
+        "pid": 0,
+        "tid": 3789868786995959152,
+        "ts": 2097962448598.374
+    },
+    {
+        "attr": {
+            "Bytes": "524288",
+            "CollGroup": "AllReduce_all_reduce_4",
+            "Peer": "1",
+            "Power": "3445929116",
+            "TS1": "2552537957",
+            "TS2": "2552537957",
+            "TS3": "2553143669",
+            "TS4": "2553143669",
+            "TS5": "2553438341",
+            "Type": "SingleCast"
+        },
+        "name": "SenRdmaSend_82227 [sync=AllReduce_all_reduce_4_s0_r1_0] DmaO",
+        "ph": "E",
+        "pid": 0,
+        "tid": 3789868786995959152,
+        "ts": 2097962449127.335
+    },
+    {
+        "attr": {
+            "Bytes": "524288",
+            "CollGroup": "AllReduce_all_reduce_4",
+            "Peer": "3",
+            "Power": "3662166927",
+            "TS1": "2553143653",
+            "TS2": "2553526431",
+            "TS3": "2553526437",
+            "TS4": "2553526437",
+            "TS5": "2553526440",
+            "Type": "WDone Barrier"
+        },
+        "name": "SenRdmaReceive_82229 [524288B] [sync=AllReduce_all_reduce_4_s3_r0x7_6] DmaI",
+        "ph": "B",
+        "pid": 0,
+        "tid": 14212308887215440790,
+        "ts": 2097962448598.345
+    },
+    {
+        "attr": {
+            "Bytes": "524288",
+            "CollGroup": "AllReduce_all_reduce_4",
+            "Peer": "3",
+            "Power": "3662166927",
+            "TS1": "2553143653",
+            "TS2": "2553526431",
+            "TS3": "2553526437",
+            "TS4": "2553526437",
+            "TS5": "2553526440",
+            "Type": "WDone Barrier"
+        },
+        "name": "SenRdmaReceive_82229 [524288B] [sync=AllReduce_all_reduce_4_s3_r0x7_6] DmaI",
+        "ph": "E",
+        "pid": 0,
+        "tid": 14212308887215440790,
+        "ts": 2097962449285.464
+    },
+    {
+        "attr": {
+            "Power": "1830739976",
+            "TS1": "1072959780",
+            "TS2": "1072959780",
+            "TS3": "1072961255",
+            "TS4": "1073237269",
+            "TS5": "1073237275"
+        },
+        "name": "add_11 Cmpt Prep",
+        "ph": "B",
+        "pid": 1,
+        "tid": 15514734831341844875,
+        "ts": 2097962447232.542
+    },
+    {
+        "attr": {
+            "Power": "1830739976",
+            "TS1": "1072959780",
+            "TS2": "1072959780",
+            "TS3": "1072961255",
+            "TS4": "1073237269",
+            "TS5": "1073237275"
+        },
+        "name": "add_11 Cmpt Prep",
+        "ph": "E",
+        "pid": 1,
+        "tid": 15514734831341844875,
+        "ts": 2097962447235.189
+    },
+    {
+        "attr": {
+            "Power": "1830739976",
+            "TS1": "1072959780",
+            "TS2": "1072959780",
+            "TS3": "1072961255",
+            "TS4": "1073237269",
+            "TS5": "1073237275"
+        },
+        "name": "add_11 Cmpt Exec",
+        "ph": "B",
+        "pid": 1,
+        "tid": 2009867741857745393,
+        "ts": 2097962447235.189
+    },
+    {
+        "attr": {
+            "Power": "1830739976",
+            "TS1": "1072959780",
+            "TS2": "1072959780",
+            "TS3": "1072961255",
+            "TS4": "1073257269",
+            "TS5": "1073257275"
+        },
+        "name": "add_11 Cmpt Exec",
+        "ph": "E",
+        "pid": 1,
+        "tid": 2009867741857745393,
+        "ts": 2097962447730.535
+    },
+    {
+        "attr": {
+            "Bytes": "524288",
+            "CollGroup": "AllReduce_all_reduce_4",
+            "Peer": "0",
+            "Power": "1838789834",
+            "TS1": "1072960414",
+            "TS2": "1073253555",
+            "TS3": "1073253561",
+            "TS4": "1073253561",
+            "TS5": "1073253564",
+            "Type": "WDone Barrier"
+        },
+        "name": "SenRdmaReceive_82236 [524288B] [sync=AllReduce_all_reduce_4_s0_r1_0] DmaI",
+        "ph": "B",
+        "pid": 1,
+        "tid": 14212308887215440790,
+        "ts": 2097962447233.68
+    },
+    {
+        "attr": {
+            "Bytes": "524288",
+            "CollGroup": "AllReduce_all_reduce_4",
+            "Peer": "0",
+            "Power": "1838789834",
+            "TS1": "1072960414",
+            "TS2": "1073253555",
+            "TS3": "1073253561",
+            "TS4": "1073253561",
+            "TS5": "1073253564",
+            "Type": "WDone Barrier"
+        },
+        "name": "SenRdmaReceive_82236 [524288B] [sync=AllReduce_all_reduce_4_s0_r1_0] DmaI",
+        "ph": "E",
+        "pid": 1,
+        "tid": 14212308887215440790,
+        "ts": 2097962447759.763
+    },
+    {
+        "attr": {
+            "CollGroup": "AllReduce_all_reduce_4",
+            "Power": "1841771966",
+            "TS1": "1072960430",
+            "TS2": "1072960430",
+            "TS3": "1073254403",
+            "TS4": "1073263667",
+            "TS5": "1073263673"
+        },
+        "name": "AllReduce_all_reduce_4_Add_1 Cmpt Prep",
+        "ph": "B",
+        "pid": 1,
+        "tid": 15514734831341844875,
+        "ts": 2097962447233.708
+    },
+    {
+        "attr": {
+            "CollGroup": "AllReduce_all_reduce_4",
+            "Power": "1841771966",
+            "TS1": "1072960430",
+            "TS2": "1072960430",
+            "TS3": "1073254403",
+            "TS4": "1073263667",
+            "TS5": "1073263673"
+        },
+        "name": "AllReduce_all_reduce_4_Add_1 Cmpt Prep",
+        "ph": "E",
+        "pid": 1,
+        "tid": 15514734831341844875,
+        "ts": 2097962447761.284
+    },
+    {
+        "attr": {
+            "CollGroup": "AllReduce_all_reduce_4",
+            "Power": "1841771966",
+            "TS1": "1072960430",
+            "TS2": "1072960430",
+            "TS3": "1073254403",
+            "TS4": "1073263667",
+            "TS5": "1073263673"
+        },
+        "name": "AllReduce_all_reduce_4_Add_1 Cmpt Exec",
+        "ph": "B",
+        "pid": 1,
+        "tid": 2009867741857745393,
+        "ts": 2097962447761.284
+    },
+    {
+        "attr": {
+            "CollGroup": "AllReduce_all_reduce_4",
+            "Power": "1841771966",
+            "TS1": "1072960430",
+            "TS2": "1072960430",
+            "TS3": "1073254403",
+            "TS4": "1073263667",
+            "TS5": "1073263673"
+        },
+        "name": "AllReduce_all_reduce_4_Add_1 Cmpt Exec",
+        "ph": "E",
+        "pid": 1,
+        "tid": 2009867741857745393,
+        "ts": 2097962447777.909
+    },
+    {
+        "attr": {
+            "Bytes": "524288",
+            "CollGroup": "AllReduce_all_reduce_4",
+            "Peer": "2",
+            "Power": "1838794849",
+            "TS1": "1072960431",
+            "TS2": "1072960431",
+            "TS3": "1073253578",
+            "TS4": "1073253578",
+            "TS5": "1073275457",
+            "Type": "SingleCast"
+        },
+        "name": "SenRdmaSend_82237 [sync=AllReduce_all_reduce_4_s1_r2_2] DmaO",
+        "ph": "B",
+        "pid": 1,
+        "tid": 3789868786995959152,
+        "ts": 2097962447759.804
+    },
+    {
+        "attr": {
+            "Bytes": "524288",
+            "CollGroup": "AllReduce_all_reduce_4",
+            "Peer": "2",
+            "Power": "1838794849",
+            "TS1": "1072960431",
+            "TS2": "1072960431",
+            "TS3": "1073253578",
+            "TS4": "1073253578",
+            "TS5": "1073275457",
+            "Type": "SingleCast"
+        },
+        "name": "SenRdmaSend_82237 [sync=AllReduce_all_reduce_4_s1_r2_2] DmaO",
+        "ph": "E",
+        "pid": 1,
+        "tid": 3789868786995959152,
+        "ts": 2097962447799.069
+    },
+    {
+        "attr": {
+            "Bytes": "524288",
+            "CollGroup": "AllReduce_all_reduce_4",
+            "Peer": "3",
+            "Power": "1869569155",
+            "TS1": "1073253562",
+            "TS2": "1073341436",
+            "TS3": "1073341442",
+            "TS4": "1073341442",
+            "TS5": "1073341445",
+            "Type": "WDone Barrier"
+        },
+        "name": "SenRdmaReceive_82239 [524288B] [sync=AllReduce_all_reduce_4_s3_r0x7_6] DmaI",
+        "ph": "B",
+        "pid": 1,
+        "tid": 14212308887215440790,
+        "ts": 2097962447759.776
+    },
+    {
+        "attr": {
+            "Bytes": "524288",
+            "CollGroup": "AllReduce_all_reduce_4",
+            "Peer": "3",
+            "Power": "1869569155",
+            "TS1": "1073253562",
+            "TS2": "1073341436",
+            "TS3": "1073341442",
+            "TS4": "1073341442",
+            "TS5": "1073341445",
+            "Type": "WDone Barrier"
+        },
+        "name": "SenRdmaReceive_82239 [524288B] [sync=AllReduce_all_reduce_4_s3_r0x7_6] DmaI",
+        "ph": "E",
+        "pid": 1,
+        "tid": 14212308887215440790,
+        "ts": 2097962447917.478
+    },
+    {
+        "attr": {
+            "Power": "158190216",
+            "TS1": "115296734",
+            "TS2": "115296734",
+            "TS3": "115364750",
+            "TS4": "115640121",
+            "TS5": "115640127"
+        },
+        "name": "add_11 Cmpt Prep",
+        "ph": "B",
+        "pid": 2,
+        "tid": 15514734831341844875,
+        "ts": 2097962447132.759
+    },
+    {
+        "attr": {
+            "Power": "158190216",
+            "TS1": "115296734",
+            "TS2": "115296734",
+            "TS3": "115364750",
+            "TS4": "115640121",
+            "TS5": "115640127"
+        },
+        "name": "add_11 Cmpt Prep",
+        "ph": "E",
+        "pid": 2,
+        "tid": 15514734831341844875,
+        "ts": 2097962447254.823
+    },
+    {
+        "attr": {
+            "Power": "158190216",
+            "TS1": "115296734",
+            "TS2": "115296734",
+            "TS3": "115364750",
+            "TS4": "115640121",
+            "TS5": "115640127"
+        },
+        "name": "add_11 Cmpt Exec",
+        "ph": "B",
+        "pid": 2,
+        "tid": 2009867741857745393,
+        "ts": 2097962447254.823
+    },
+    {
+        "attr": {
+            "Power": "158190216",
+            "TS1": "115296734",
+            "TS2": "115296734",
+            "TS3": "115364750",
+            "TS4": "115640121",
+            "TS5": "115640127"
+        },
+        "name": "add_11 Cmpt Exec",
+        "ph": "E",
+        "pid": 2,
+        "tid": 2009867741857745393,
+        "ts": 2097962447749.017
+    },
+    {
+        "attr": {
+            "Bytes": "524288",
+            "CollGroup": "AllReduce_all_reduce_4",
+            "Peer": "1",
+            "Power": "173215094",
+            "TS1": "115363809",
+            "TS2": "115679381",
+            "TS3": "115679387",
+            "TS4": "115679387",
+            "TS5": "115679390",
+            "Type": "WDone Barrier"
+        },
+        "name": "SenRdmaReceive_82236 [524288B] [sync=AllReduce_all_reduce_4_s1_r2_2] DmaI",
+        "ph": "B",
+        "pid": 2,
+        "tid": 14212308887215440790,
+        "ts": 2097962447253.136
+    },
+    {
+        "attr": {
+            "Bytes": "524288",
+            "CollGroup": "AllReduce_all_reduce_4",
+            "Peer": "1",
+            "Power": "173215094",
+            "TS1": "115363809",
+            "TS2": "115679381",
+            "TS3": "115679387",
+            "TS4": "115679387",
+            "TS5": "115679390",
+            "Type": "WDone Barrier"
+        },
+        "name": "SenRdmaReceive_82236 [524288B] [sync=AllReduce_all_reduce_4_s1_r2_2] DmaI",
+        "ph": "E",
+        "pid": 2,
+        "tid": 14212308887215440790,
+        "ts": 2097962447819.477
+    },
+    {
+        "attr": {
+            "CollGroup": "AllReduce_all_reduce_4",
+            "Power": "178247622",
+            "TS1": "115363825",
+            "TS2": "115363825",
+            "TS3": "115680228",
+            "TS4": "115689559",
+            "TS5": "115689565"
+        },
+        "name": "AllReduce_all_reduce_4_Add_3 Cmpt Prep",
+        "ph": "B",
+        "pid": 2,
+        "tid": 15514734831341844875,
+        "ts": 2097962447253.164
+    },
+    {
+        "attr": {
+            "CollGroup": "AllReduce_all_reduce_4",
+            "Power": "178247622",
+            "TS1": "115363825",
+            "TS2": "115363825",
+            "TS3": "115680228",
+            "TS4": "115689559",
+            "TS5": "115689565"
+        },
+        "name": "AllReduce_all_reduce_4_Add_3 Cmpt Prep",
+        "ph": "E",
+        "pid": 2,
+        "tid": 15514734831341844875,
+        "ts": 2097962447820.996
+    },
+    {
+        "attr": {
+            "CollGroup": "AllReduce_all_reduce_4",
+            "Power": "178247622",
+            "TS1": "115363825",
+            "TS2": "115363825",
+            "TS3": "115680228",
+            "TS4": "115689559",
+            "TS5": "115689565"
+        },
+        "name": "AllReduce_all_reduce_4_Add_3 Cmpt Exec",
+        "ph": "B",
+        "pid": 2,
+        "tid": 2009867741857745393,
+        "ts": 2097962447820.996
+    },
+    {
+        "attr": {
+            "CollGroup": "AllReduce_all_reduce_4",
+            "Power": "178247622",
+            "TS1": "115363825",
+            "TS2": "115363825",
+            "TS3": "115680228",
+            "TS4": "115689559",
+            "TS5": "115689565"
+        },
+        "name": "AllReduce_all_reduce_4_Add_3 Cmpt Exec",
+        "ph": "E",
+        "pid": 2,
+        "tid": 2009867741857745393,
+        "ts": 2097962447837.741
+    },
+    {
+        "attr": {
+            "Bytes": "524288",
+            "CollGroup": "AllReduce_all_reduce_4",
+            "Peer": "3",
+            "Power": "173222693",
+            "TS1": "115363826",
+            "TS2": "115363826",
+            "TS3": "115679404",
+            "TS4": "115679404",
+            "TS5": "115703166",
+            "Type": "SingleCast"
+        },
+        "name": "SenRdmaSend_82237 [sync=AllReduce_all_reduce_4_s2_r3_4] DmaO",
+        "ph": "B",
+        "pid": 2,
+        "tid": 3789868786995959152,
+        "ts": 2097962447819.518
+    },
+    {
+        "attr": {
+            "Bytes": "524288",
+            "CollGroup": "AllReduce_all_reduce_4",
+            "Peer": "3",
+            "Power": "173222693",
+            "TS1": "115363826",
+            "TS2": "115363826",
+            "TS3": "115679404",
+            "TS4": "115679404",
+            "TS5": "115703166",
+            "Type": "SingleCast"
+        },
+        "name": "SenRdmaSend_82237 [sync=AllReduce_all_reduce_4_s2_r3_4] DmaO",
+        "ph": "E",
+        "pid": 2,
+        "tid": 3789868786995959152,
+        "ts": 2097962447862.162
+    },
+    {
+        "attr": {
+            "Bytes": "524288",
+            "CollGroup": "AllReduce_all_reduce_4",
+            "Peer": "3",
+            "Power": "200018302",
+            "TS1": "115679388",
+            "TS2": "115745185",
+            "TS3": "115745191",
+            "TS4": "115745191",
+            "TS5": "115745194",
+            "Type": "WDone Barrier"
+        },
+        "name": "SenRdmaReceive_82239 [524288B] [sync=AllReduce_all_reduce_4_s3_r0x7_6] DmaI",
+        "ph": "B",
+        "pid": 2,
+        "tid": 14212308887215440790,
+        "ts": 2097962447819.49
+    },
+    {
+        "attr": {
+            "Bytes": "524288",
+            "CollGroup": "AllReduce_all_reduce_4",
+            "Peer": "3",
+            "Power": "200018302",
+            "TS1": "115679388",
+            "TS2": "115745185",
+            "TS3": "115745191",
+            "TS4": "115745191",
+            "TS5": "115745194",
+            "Type": "WDone Barrier"
+        },
+        "name": "SenRdmaReceive_82239 [524288B] [sync=AllReduce_all_reduce_4_s3_r0x7_6] DmaI",
+        "ph": "E",
+        "pid": 2,
+        "tid": 14212308887215440790,
+        "ts": 2097962447937.572
+    },
+    {
+        "attr": {
+            "Power": "124259764",
+            "TS1": "780533384",
+            "TS2": "780533384",
+            "TS3": "780544096",
+            "TS4": "780819175",
+            "TS5": "780819181"
+        },
+        "name": "add_11 Cmpt Prep",
+        "ph": "B",
+        "pid": 3,
+        "tid": 15514734831341844875,
+        "ts": 2097962447266.279
+    },
+    {
+        "attr": {
+            "Power": "124259764",
+            "TS1": "780533384",
+            "TS2": "780533384",
+            "TS3": "780544096",
+            "TS4": "780819175",
+            "TS5": "780819181"
+        },
+        "name": "add_11 Cmpt Prep",
+        "ph": "E",
+        "pid": 3,
+        "tid": 15514734831341844875,
+        "ts": 2097962447285.503
+    },
+    {
+        "attr": {
+            "Power": "124259764",
+            "TS1": "780533384",
+            "TS2": "780533384",
+            "TS3": "780544096",
+            "TS4": "780819175",
+            "TS5": "780819181"
+        },
+        "name": "add_11 Cmpt Exec",
+        "ph": "B",
+        "pid": 3,
+        "tid": 2009867741857745393,
+        "ts": 2097962447285.503
+    },
+    {
+        "attr": {
+            "Power": "124259764",
+            "TS1": "780533384",
+            "TS2": "780533384",
+            "TS3": "780544096",
+            "TS4": "780819175",
+            "TS5": "780819181"
+        },
+        "name": "add_11 Cmpt Exec",
+        "ph": "E",
+        "pid": 3,
+        "tid": 2009867741857745393,
+        "ts": 2097962447779.184
+    },
+    {
+        "attr": {
+            "Bytes": "524288",
+            "CollGroup": "AllReduce_all_reduce_4",
+            "Peer": "2",
+            "Power": "159036940",
+            "TS1": "780534113",
+            "TS2": "780915994",
+            "TS3": "780916000",
+            "TS4": "780916000",
+            "TS5": "780916003",
+            "Type": "WDone Barrier"
+        },
+        "name": "SenRdmaReceive_82232 [524288B] [sync=AllReduce_all_reduce_4_s2_r3_4] DmaI",
+        "ph": "B",
+        "pid": 3,
+        "tid": 14212308887215440790,
+        "ts": 2097962447267.587
+    },
+    {
+        "attr": {
+            "Bytes": "524288",
+            "CollGroup": "AllReduce_all_reduce_4",
+            "Peer": "2",
+            "Power": "159036940",
+            "TS1": "780534113",
+            "TS2": "780915994",
+            "TS3": "780916000",
+            "TS4": "780916000",
+            "TS5": "780916003",
+            "Type": "WDone Barrier"
+        },
+        "name": "SenRdmaReceive_82232 [524288B] [sync=AllReduce_all_reduce_4_s2_r3_4] DmaI",
+        "ph": "E",
+        "pid": 3,
+        "tid": 14212308887215440790,
+        "ts": 2097962447952.944
+    },
+    {
+        "attr": {
+            "CollGroup": "AllReduce_all_reduce_4",
+            "Power": "163501794",
+            "TS1": "780534129",
+            "TS2": "780534129",
+            "TS3": "780916842",
+            "TS4": "780926001",
+            "TS5": "780926007"
+        },
+        "name": "AllReduce_all_reduce_4_Add_5 Cmpt Prep",
+        "ph": "B",
+        "pid": 3,
+        "tid": 15514734831341844875,
+        "ts": 2097962447267.616
+    },
+    {
+        "attr": {
+            "CollGroup": "AllReduce_all_reduce_4",
+            "Power": "163501794",
+            "TS1": "780534129",
+            "TS2": "780534129",
+            "TS3": "780916842",
+            "TS4": "780926001",
+            "TS5": "780926007"
+        },
+        "name": "AllReduce_all_reduce_4_Add_5 Cmpt Prep",
+        "ph": "E",
+        "pid": 3,
+        "tid": 15514734831341844875,
+        "ts": 2097962447954.466
+    },
+    {
+        "attr": {
+            "CollGroup": "AllReduce_all_reduce_4",
+            "Power": "163501794",
+            "TS1": "780534129",
+            "TS2": "780534129",
+            "TS3": "780916842",
+            "TS4": "780926001",
+            "TS5": "780926007"
+        },
+        "name": "AllReduce_all_reduce_4_Add_5 Cmpt Exec",
+        "ph": "B",
+        "pid": 3,
+        "tid": 2009867741857745393,
+        "ts": 2097962447954.466
+    },
+    {
+        "attr": {
+            "CollGroup": "AllReduce_all_reduce_4",
+            "Power": "163501794",
+            "TS1": "780534129",
+            "TS2": "780534129",
+            "TS3": "780916842",
+            "TS4": "780926001",
+            "TS5": "780926007"
+        },
+        "name": "AllReduce_all_reduce_4_Add_5 Cmpt Exec",
+        "ph": "E",
+        "pid": 3,
+        "tid": 2009867741857745393,
+        "ts": 2097962447970.903
+    },
+    {
+        "attr": {
+            "CollGroup": "AllReduce_all_reduce_4",
+            "Peers": "0,1,2",
+            "Power": "159044012",
+            "TS1": "780534130",
+            "TS2": "780534130",
+            "TS3": "780916017",
+            "TS4": "780916017",
+            "TS5": "780926036",
+            "Type": "Set BCList"
+        },
+        "name": "SenRdmaSend_82233 - Set BcList [sync=AllReduce_all_reduce_4_s3_r0x7_6] DmaO",
+        "ph": "B",
+        "pid": 3,
+        "tid": 3789868786995959152,
+        "ts": 2097962447952.985
+    },
+    {
+        "attr": {
+            "CollGroup": "AllReduce_all_reduce_4",
+            "Peers": "0,1,2",
+            "Power": "159044012",
+            "TS1": "780534130",
+            "TS2": "780534130",
+            "TS3": "780916017",
+            "TS4": "780916017",
+            "TS5": "780926036",
+            "Type": "Set BCList"
+        },
+        "name": "SenRdmaSend_82233 - Set BcList [sync=AllReduce_all_reduce_4_s3_r0x7_6] DmaO",
+        "ph": "E",
+        "pid": 3,
+        "tid": 3789868786995959152,
+        "ts": 2097962447970.965
+    },
+    {
+        "attr": {
+            "CollGroup": "AllReduce_all_reduce_4",
+            "Peer": "0",
+            "Power": "159044428",
+            "TS1": "780534131",
+            "TS2": "780534131",
+            "TS3": "780916018",
+            "TS4": "780916018",
+            "TS5": "780926101",
+            "Type": "MultiCast XSEG"
+        },
+        "name": "SenRdmaSend_82233 - Xseg to rank 0 [sync=AllReduce_all_reduce_4_s3_r0x7_6] DmaO",
+        "ph": "B",
+        "pid": 3,
+        "tid": 3789868786995959152,
+        "ts": 2097962447952.987
+    },
+    {
+        "attr": {
+            "CollGroup": "AllReduce_all_reduce_4",
+            "Peer": "0",
+            "Power": "159044428",
+            "TS1": "780534131",
+            "TS2": "780534131",
+            "TS3": "780916018",
+            "TS4": "780916018",
+            "TS5": "780926101",
+            "Type": "MultiCast XSEG"
+        },
+        "name": "SenRdmaSend_82233 - Xseg to rank 0 [sync=AllReduce_all_reduce_4_s3_r0x7_6] DmaO",
+        "ph": "E",
+        "pid": 3,
+        "tid": 3789868786995959152,
+        "ts": 2097962447971.082
+    },
+    {
+        "attr": {
+            "CollGroup": "AllReduce_all_reduce_4",
+            "Peer": "1",
+            "Power": "159044844",
+            "TS1": "780534132",
+            "TS2": "780534132",
+            "TS3": "780916019",
+            "TS4": "780916019",
+            "TS5": "780926166",
+            "Type": "MultiCast XSEG"
+        },
+        "name": "SenRdmaSend_82233 - Xseg to rank 1 [sync=AllReduce_all_reduce_4_s3_r0x7_6] DmaO",
+        "ph": "B",
+        "pid": 3,
+        "tid": 3789868786995959152,
+        "ts": 2097962447952.989
+    },
+    {
+        "attr": {
+            "CollGroup": "AllReduce_all_reduce_4",
+            "Peer": "1",
+            "Power": "159044844",
+            "TS1": "780534132",
+            "TS2": "780534132",
+            "TS3": "780916019",
+            "TS4": "780916019",
+            "TS5": "780926166",
+            "Type": "MultiCast XSEG"
+        },
+        "name": "SenRdmaSend_82233 - Xseg to rank 1 [sync=AllReduce_all_reduce_4_s3_r0x7_6] DmaO",
+        "ph": "E",
+        "pid": 3,
+        "tid": 3789868786995959152,
+        "ts": 2097962447971.199
+    },
+    {
+        "attr": {
+            "CollGroup": "AllReduce_all_reduce_4",
+            "Peer": "2",
+            "Power": "159045260",
+            "TS1": "780534133",
+            "TS2": "780534133",
+            "TS3": "780916020",
+            "TS4": "780916020",
+            "TS5": "780926230",
+            "Type": "MultiCast XSEG"
+        },
+        "name": "SenRdmaSend_82233 - Xseg to rank 2 [sync=AllReduce_all_reduce_4_s3_r0x7_6] DmaO",
+        "ph": "B",
+        "pid": 3,
+        "tid": 3789868786995959152,
+        "ts": 2097962447952.991
+    },
+    {
+        "attr": {
+            "CollGroup": "AllReduce_all_reduce_4",
+            "Peer": "2",
+            "Power": "159045260",
+            "TS1": "780534133",
+            "TS2": "780534133",
+            "TS3": "780916020",
+            "TS4": "780916020",
+            "TS5": "780926230",
+            "Type": "MultiCast XSEG"
+        },
+        "name": "SenRdmaSend_82233 - Xseg to rank 2 [sync=AllReduce_all_reduce_4_s3_r0x7_6] DmaO",
+        "ph": "E",
+        "pid": 3,
+        "tid": 3789868786995959152,
+        "ts": 2097962447971.314
+    },
+    {
+        "attr": {
+            "Bytes": "524288",
+            "CollGroup": "AllReduce_all_reduce_4",
+            "Power": "159045676",
+            "TS1": "780534134",
+            "TS2": "780534134",
+            "TS3": "780916021",
+            "TS4": "780916021",
+            "TS5": "780957511",
+            "Type": "MultiCast"
+        },
+        "name": "SenRdmaSend_82233 Data [sync=AllReduce_all_reduce_4_s3_r0x7_6] DmaO",
+        "ph": "B",
+        "pid": 3,
+        "tid": 3789868786995959152,
+        "ts": 2097962447952.993
+    },
+    {
+        "attr": {
+            "Bytes": "524288",
+            "CollGroup": "AllReduce_all_reduce_4",
+            "Power": "159045676",
+            "TS1": "780534134",
+            "TS2": "780534134",
+            "TS3": "780916021",
+            "TS4": "780916021",
+            "TS5": "780957511",
+            "Type": "MultiCast"
+        },
+        "name": "SenRdmaSend_82233 Data [sync=AllReduce_all_reduce_4_s3_r0x7_6] DmaO",
+        "ph": "E",
+        "pid": 3,
+        "tid": 3789868786995959152,
+        "ts": 2097962448027.454
+    }
+]

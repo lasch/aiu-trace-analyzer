@@ -1,0 +1,36 @@
+[DeepRT] ===== FillProgramFramePtr BEGIN =====
+[DeepRT] ===== FillProgramFramePtr END =====
+[DeepRT] ===== Perf BEGIN =====
+====== Perf Summary ======
+~~~~ Ideal/Total Cycles ~~~~
+-------------------------------------------------------------------------------------------
+Name                                                                            Ideal Cy.
+-------------------------------------------------------------------------------------------
+convolution-opCatConvOs1_fp16                                                   115248         
+max_pool2d_with_indices-opCatPooling                                            0              
+convolution_1-opCatConv_fp16                                                    12544          
+convolution_4-opCatConv_fp16                                                    50176          
+convolution_2-opCatConv_fp16                                                    112896         
+convolution_3-opCatConv_fp16                                                    50176          
+add-opCatBroadcast                                                              0              
+relu_3-opCatScalar                                                              0              
+convolution_5-opCatConv_fp16                                                    50176          
+convolution_6-opCatConv_fp16                                                    112896         
+convolution_7-opCatConv_fp16                                                    50176          
+add_1-opCatBroadcast                                                            0              
+relu_6-opCatScalar                                                              0              
+convolution_15-Output-Form1-LxRelayout-opCatStcdpLx                             0              
+mean-opCatPooling                                                               0              
+view-VirtualReshape-Output-LxRelayout-opCatStcdpLx                              0              
+addmm_MatMul-opCatBmm_fp16                                                      2048           
+-------------------------------------------------------------------------------------------
+Total										556336
+-------------------------------------------------------------------------------------------
+====== Perf Summary End ======
+[DeepRT] ===== Perf END =====
+[DeepRT] ===== DSM-Act2 BEGIN =====
+[DeepRT] ===== Calling DSM (ACT2) ====
+[DeepRT] ===== DSM-Act2 END =====
+[DeepRT] ===== DSM-SplitDSenGraph BEGIN =====
+[DeepRT] ===== DSM-SplitDSenGraph END =====
+

@@ -1,0 +1,55 @@
+[
+    {"name": "CaseCompX",  "cat": "CatA",     "ph": "X",    "pid": 0,    "tid": 0,  "ts": 1, "dur": 10, "comment": "to be turned into B+E type"},
+    {"name": "Case1 E2",   "cat": "CatA",     "ph": "B",    "pid": 0,    "tid": 5,  "ts": 1, "comment": "full overlap in order starting at the same time, should stack as is"},
+    {"name": "Case1 E2",   "cat": "CatA",     "ph": "E",    "pid": 0,    "tid": 5,  "ts": 5},
+
+    {"name": "CaseTSRev1",   "cat": "CatA",     "ph": "B",    "pid": 0,    "tid": 5,  "ts": 30, "comment": "broken TS, should not appear in viz"},
+    {"name": "CaseTSRev1",   "cat": "CatA",     "ph": "E",    "pid": 0,    "tid": 5,  "ts": 20},
+
+    {"name": "CaseTSRev2",   "cat": "CatA",     "ph": "B",    "pid": 0,    "tid": 5,  "ts": 30, "comment": "broken TS + E before B, should not appear in viz"},
+    {"name": "CaseTSRev2",   "cat": "CatA",     "ph": "E",    "pid": 0,    "tid": 5,  "ts": 20},
+
+    {"name": "Case2 E1",   "cat": "CatA",     "ph": "B",    "pid": 0,    "tid": 5,  "ts": 20, "comment": "full overlap in order, should stack as is"},
+    {"name": "Case2 E1",   "cat": "CatA",     "ph": "E",    "pid": 0,    "tid": 5,  "ts": 30},
+    {"name": "Case2 E2",   "cat": "CatA",     "ph": "B",    "pid": 0,    "tid": 5,  "ts": 21},
+    {"name": "Case2 E2",   "cat": "CatA",     "ph": "E",    "pid": 0,    "tid": 5,  "ts": 25},
+
+    {"name": "Case3 E2",   "cat": "CatA",     "ph": "B",    "pid": 0,    "tid": 0,  "ts": 41, "comment": "full overlap short event first, should stack as is"},
+    {"name": "Case3 E2",   "cat": "CatA",     "ph": "E",    "pid": 0,    "tid": 0,  "ts": 45},
+    {"name": "Case3 E1",   "cat": "CatA",     "ph": "B",    "pid": 0,    "tid": 0,  "ts": 40},
+    {"name": "Case3 E1",   "cat": "CatA",     "ph": "E",    "pid": 0,    "tid": 0,  "ts": 50},
+
+    {"name": "Case4 E1",   "cat": "CatA",     "ph": "B",    "pid": 0,    "tid": 0,  "ts": 60, "comment": "partial overlap B1E1..B2E2, fails without event modification"},
+    {"name": "Case4 E1",   "cat": "CatA",     "ph": "E",    "pid": 0,    "tid": 0,  "ts": 65},
+    {"name": "Case4 E2",   "cat": "CatA",     "ph": "B",    "pid": 0,    "tid": 0,  "ts": 61},
+    {"name": "Case4 E2",   "cat": "CatA",     "ph": "E",    "pid": 0,    "tid": 0,  "ts": 70},
+
+    {"name": "Case5 E1",   "cat": "CatA",     "ph": "B",    "pid": 0,    "tid": 0,  "ts": 80, "comment": "partial overlap B1B2..E1E2, fails without event modification"},
+    {"name": "Case5 E1",   "cat": "CatA",     "ph": "E",    "pid": 0,    "tid": 0,  "ts": 85},
+    {"name": "Case5 E2",   "cat": "CatA",     "ph": "B",    "pid": 0,    "tid": 0,  "ts": 81},
+    {"name": "Case5 E2",   "cat": "CatA",     "ph": "E",    "pid": 0,    "tid": 0,  "ts": 90},
+
+    {"name": "Case6 E1",   "cat": "CatA",     "ph": "B",    "pid": 0,    "tid": 0,  "ts": 100, "comment": "tripple overlap B1E1..B2E2..B3E3, fails without event modification"},
+    {"name": "Case6 E1",   "cat": "CatA",     "ph": "E",    "pid": 0,    "tid": 0,  "ts": 110},
+    {"name": "Case6 E2",   "cat": "CatA",     "ph": "B",    "pid": 0,    "tid": 0,  "ts": 105},
+    {"name": "Case6 E2",   "cat": "CatA",     "ph": "E",    "pid": 0,    "tid": 0,  "ts": 115},
+    {"name": "Case6 E3",   "cat": "CatA",     "ph": "B",    "pid": 0,    "tid": 0,  "ts": 103},
+    {"name": "Case6 E3",   "cat": "CatA",     "ph": "E",    "pid": 0,    "tid": 0,  "ts": 113},
+
+    {"name": "Case7 E1",   "cat": "CatB",     "ph": "B",    "pid": 0,    "tid": 0,  "ts": 120, "args": {}},
+    {"name": "Case7 E1",   "cat": "CatB",     "ph": "E",    "pid": 0,    "tid": 0,  "ts": 125, "args": {}},
+    {"name": "Case7 E2",   "cat": "CatB",     "ph": "B",    "pid": 0,    "tid": 0,  "ts": 120, "args": {}},
+    {"name": "Case7 E2",   "cat": "CatB",     "ph": "E",    "pid": 0,    "tid": 0,  "ts": 130, "args": {}},
+
+    {"name": "Case8 E1",   "cat": "CatA",     "ph": "B",    "pid": 0,    "tid": 0,  "ts": 140, "comment": "overlap between nested events, fails without event modification"},
+    {"name": "Case8 E1",   "cat": "CatA",     "ph": "E",    "pid": 0,    "tid": 0,  "ts": 160},
+    {"name": "Case8 E2",   "cat": "CatA",     "ph": "B",    "pid": 0,    "tid": 0,  "ts": 145},
+    {"name": "Case8 E2",   "cat": "CatA",     "ph": "E",    "pid": 0,    "tid": 0,  "ts": 155},
+    {"name": "Case8 E3",   "cat": "CatA",     "ph": "B",    "pid": 0,    "tid": 0,  "ts": 150},
+    {"name": "Case8 E3",   "cat": "CatA",     "ph": "E",    "pid": 0,    "tid": 0,  "ts": 158},
+    {"name": "Case8 E4",   "cat": "CatA",     "ph": "B",    "pid": 0,    "tid": 0,  "ts": 151},
+    {"name": "Case8 E4",   "cat": "CatA",     "ph": "E",    "pid": 0,    "tid": 0,  "ts": 154},
+    {"name": "Case8 E5",   "cat": "CatA",     "ph": "B",    "pid": 0,    "tid": 0,  "ts": 153},
+    {"name": "Case8 E5",   "cat": "CatA",     "ph": "E",    "pid": 0,    "tid": 0,  "ts": 157}
+
+]
