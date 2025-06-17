@@ -8,10 +8,10 @@ name = "aiu_trace_analyzer"
 description = "AIU Trace Analyzer (acelyzer) for post-processing of trace files."
 license = "Apache-2.0"
 license-files = ["LICEN[CS]E*"]
-version = "0.2"
+version = "0.5"
 requires-python = ">=3.9"
 dependencies = [
-    "numpy~=1.22",
+    "numpy",
     "pytest",
     "pandas"
 ]
