@@ -20,7 +20,6 @@ class EventProcessor:
     High-level 3 stage:
       1. pass event(s) through registered pre-processing functions
       2. convert from python dict no AbstractEventType object
-      3. pass those through registered post-processing functions (none exist yet)
     '''
     def __init__(self, profile: dict = {}, intermediate: str = None) -> None:
         self.stages = []
