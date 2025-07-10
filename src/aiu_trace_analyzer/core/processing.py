@@ -8,6 +8,7 @@ import aiu_trace_analyzer.pipeline.context as procCTX
 from aiu_trace_analyzer.types import TraceEvent
 from aiu_trace_analyzer.core.duplicate_hold import IntermediateDuplicateAndHoldContext, duplicate_and_hold
 from aiu_trace_analyzer.export.exporter import JsonFileTraceExporter
+from aiu_trace_analyzer.core.stage_profile import StageProfile
 
 _MINREQKEYS = ["ph", "ts", "pid", "name"]
 
@@ -21,7 +22,7 @@ class EventProcessor:
       1. pass event(s) through registered pre-processing functions
       2. convert from python dict no AbstractEventType object
     '''
-    def __init__(self, profile: dict = {}, intermediate: str = None) -> None:
+    def __init__(self, profile: StageProfile = None, intermediate: str = None) -> None:
         self.stages = []
         self.stages.append((EventProcessor.sanity_check, None, {}))
         self.profile = profile
@@ -42,6 +43,8 @@ class EventProcessor:
         if not self._callback_in_profile(callback.__name__):
             aiulog.log(aiulog.DEBUG, "DAH: Skipping registration of", callback.__name__, ": disabled in profile.")
             return
+        else:
+            aiulog.log(aiulog.DEBUG, "DAH: registering: ", callback.__name__)
 
         self.stages.append((callback, context, kwargs))
 
